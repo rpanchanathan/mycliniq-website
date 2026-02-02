@@ -1,0 +1,1210 @@
+/*!
+ * htmlscaffolding
+ * Basic web scaffolding
+ * http://cartoonmango.com
+ * @author Arun Prasad
+ * @version 
+ * Copyright .  licensed.
+ */
+
+ /*font area*/
+ /*fontize*/
+ /*common css*/
+ .pad0 {
+  padding: 0px;
+}
+.nav-unlist{
+  display: none !important;
+}
+#how-it-works {
+  padding: 0px 60px;
+  margin: 0px auto;
+  padding-bottom: 40px;
+  position: relative;
+}
+#how-it-works .work-banner {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  text-align: center;
+  margin: 0 auto;
+}
+#how-it-works .work-circle {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  overflow: hidden;
+}
+#how-it-works .work-circle img {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#how-it-works .works-heading {
+  position: relative;
+}
+#how-it-works .works-heading h5 {
+  font-family: JosefinSansBold;
+  font-size: 60px;
+  position: relative;
+  left: 10px;
+  margin-bottom: 40px;
+}
+#how-it-works .works-heading label {
+  display: inline-block;
+  height: 4px;
+  width: 60px;
+  background-color: #369674;
+  position: absolute;
+  top: 23px;
+}
+#how-it-works video {
+  width: 90%;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.04);
+}
+#how-it-works .video-elboration p {
+  font-family: JosefinSansRegular;
+  font-size: 13px;
+  line-height: 24px;
+  color: #5c5c5c;
+  margin-top: 10px;
+}
+#how-it-works .video-elboration .work-process {
+  margin-bottom: 30px;
+}
+
+#benefits-visirx {
+  overflow: hidden;
+  background: url("../images/benefits/benefits-bg.png");
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  position: relative;
+  padding: 0px 60px;
+}
+#benefits-visirx h5 {
+  font-family: JosefinSansBold;
+  font-size: 60px;
+  position: relative;
+  left: 10px;
+  color: #fff;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  z-index: 99;
+}
+#benefits-visirx label {
+  display: inline-block;
+  height: 6px;
+  width: 60px;
+  background-color: #369674;
+  position: absolute;
+  top: 104px;
+  z-index: 9;
+}
+#benefits-visirx .benifts-desc p {
+  font-family: JosefinSansRegular;
+  font-size: 16px;
+  color: #fff;
+  line-height: 24px;
+}
+#benefits-visirx .benefits-polygon {
+  position: absolute;
+  top: -165px;
+  left: 20%;
+}
+#benefits-visirx .benefits-polygon .hex {
+  cursor: pointer;
+  fill-opacity: 0.4;
+}
+#benefits-visirx .benefits-polygon #color-fill .hex {
+  fill: #ffff00;
+}
+#benefits-visirx .benefits-polygon .hex:hover {
+  fill-opacity: 1;
+  stroke: #fe985b;
+  stroke-width: 4;
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+}
+#benefits-visirx .benefits-polygon .hex.active {
+  fill-opacity: 1;
+  stroke: #fe985b;
+  stroke-width: 4;
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+}
+#benefits-visirx .benefits-polygon .hex {
+  transition: transform, fill-opacity, stroke-width;
+  -webkit-transition: transform, fill-opacity, stroke-width;
+  transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+}
+#benefits-visirx .benefits-polygon .layer1 svg {
+  position: relative;
+  left: 75px;
+  bottom: -45px;
+  z-index: 999;
+}
+#benefits-visirx .benefits-polygon .layer3 svg {
+  position: relative;
+  left: 78px;
+  top: -40px;
+}
+#benefits-visirx .mob-benefit {
+  display: none;
+}
+#benefits-visirx .arrow-section {
+  display: none;
+  position: absolute;
+  right: 85px;
+  bottom: 0px;
+  z-index: 99;
+}
+#benefits-visirx .arrow-section ul {
+  margin-bottom: 0px;
+}
+#benefits-visirx .arrow-section ul li {
+  padding: 15px;
+  background-color: #fff;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: -4px;
+}
+#benefits-visirx .arrow-section ul li img {
+  cursor: pointer;
+}
+
+
+.arrow-section ul li.left-arrow:hover, .arrow-section ul li.right-arrow:hover {
+  background-color: #f1efef !important;
+}
+
+#visirx-value-section {
+  overflow: hidden;
+}
+#visirx-value-section .value-patient-img img {
+  position: absolute;
+  height: 450px;
+  width: 100%;
+}
+#visirx-value-section .value-doctr-img img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+#visirx-value-section h5 {
+  padding: 0px;
+  font-family: JosefinSansBold;
+  font-size: 60px;
+  position: relative;
+  left: 60px;
+  color: #000;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  z-index: 99;
+}
+#visirx-value-section label {
+  display: inline-block;
+  height: 6px;
+  width: 60px;
+  background-color: #369674;
+  position: absolute;
+  top: 103px;
+  z-index: 9;
+  left: 60px;
+}
+
+#visirx-value-section .value-doctor {
+  margin-bottom: 50px;
+}
+#visirx-value-section .value-doctor .works-heading h5 {
+  padding-left: 50px;
+  display: inline-block;
+}
+#visirx-value-section .value-doctor .works-heading label {
+  left: 100px;
+}
+#visirx-value-section .value-doctor .value-desc {
+  padding-left: 110px;
+}
+#visirx-value-section .value-desc {
+  padding: 0px 60px;
+}
+#visirx-value-section .value-desc ul li {
+  padding-bottom: 30px;
+}
+#visirx-value-section .value-desc ul li label {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #369674;
+  border-radius: 50%;
+  position: relative;
+  top: -17px;
+  left: 0px;
+}
+#visirx-value-section .value-desc ul li span {
+  font-family: JosefinSansRegular;
+  font-size: 16px;
+  color: #000;
+  line-height: 24px;
+  width: 82%;
+  display: inline-block;
+}
+.inline-block {
+  display: inline-block;
+}
+.pricing-modal .modal-content {
+  border-radius: 0px;
+  box-shadow: none;
+  border: none;
+}
+.pricing-modal .modal-content .modal-header {
+  padding: 20px 40px;
+  border-bottom: none;
+}
+.pricing-modal .modal-content .modal-header .modal-title {
+  font-family: JosefinSansBold;
+}
+.pricing-modal .modal-body {
+  padding: 20px 40px;
+  background-color: #fff;
+  font-family: JosefinSansRegular;
+}
+.pricing-modal .modal-body ul li {
+  margin-bottom: 20px;
+}
+.pricing-modal .modal-body ul li:before {
+  content: "";
+  background-color: #369674;
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.pricing-modal .modal-body ul li label {
+  display: inline-block;
+  width: 97%;
+  vertical-align: top;
+  padding-left: 5px;
+}
+.pricing-modal .price-footer{
+  padding: 20px 0;
+}
+.pricing-modal .price-footer .month-block{
+  float: left;
+  padding-left: 10%;
+}
+.pricing-modal .price-footer .month-block sup,
+.pricing-modal .price-footer .year-block sup{
+  top: -1.5em;
+  font-size: 12px;
+  color: #379674;
+  font-family: JosefinSansBold;
+}
+.pricing-modal .price-footer .month-block .price,
+.pricing-modal .price-footer .year-block .price{
+  font-size: 30px;
+  color: #379674;
+  font-family: JosefinSansBold;
+}
+.pricing-modal .price-footer .month-block .period,
+.pricing-modal .price-footer .year-block .period{
+  font-family: JosefinSansBold;
+  font-size: 16px;
+  color: #333333;
+  opacity: 0.8;
+}
+.pricing-modal .price-footer .center-divider{
+  border-right: 1px solid #ddd;
+    height: 50px;
+    width: 14%;
+}
+.pricing-modal .price-footer .year-block{
+  float: right;
+  padding-right: 10%;
+}
+
+.footer {
+  background-color: #201913;
+  padding: 50px 80px;
+  clear: both;
+}
+.footer .logo-footer img {
+  width: 150px;
+}
+.footer .footer-link h5 {
+  font-family: JosefinSansBold;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer .footer-link ul li {
+  padding-bottom: 15px;
+}
+.footer .footer-link ul li a, .footer .footer-link ul li a:hover {
+  font-family: JosefinSansRegular;
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.6;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer .sociallink ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.footer-copyright {
+  background-color: #1a1511;
+  clear: both;
+  padding: 20px 80px;
+}
+.footer-copyright p {
+  font-family: JosefinSansRegular;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.6;
+  margin-bottom: 0px;
+  position: relative;
+  top: -6px;
+}
+
+#banner-section {
+  background: url("../images/banner/banner.png");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+#banner-section .navbar-align {
+  background-color: transparent;
+  border-bottom: none;
+  padding: 0px 60px;
+  margin-top: 10px;
+}
+#banner-section .navbar-align .loginbtn {
+  color: white;
+  background-color: #05be97;
+  border-radius: 4px;
+  position: relative;
+  top: 3px;
+  padding: 0px;
+}
+#banner-section .navbar-align .navbar-brand {
+  padding: 15px 0px;
+  margin-left: 0px;
+}
+#banner-section .navbar-align .navbar-right {
+  margin-top: 20px;
+}
+#banner-section .navbar-align .navbar-right li {
+  margin-left: 20px;
+}
+#banner-section .navbar-align .navbar-right li a {
+  color: #fff;
+  font-family: JosefinSansRegular;
+  font-size: 14px;
+  padding: 8px 25px;
+  position: relative;
+  top: 3px;
+}
+#banner-section .navbar-align .getstarted-dropdown button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  font-family: JosefinSansRegular;
+  font-size: 14px;
+  position: relative;
+  top: 5px;
+}
+#banner-section .navbar-align .getstarted-dropdown .dropdown-menu {
+  background-color: transparent;
+  border: 1px solid #fff;
+  margin-top: 20px;
+  padding-top: 0px;
+}
+#banner-section .navbar-align .getstarted-dropdown .dropdown-menu:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid white;
+  position: absolute;
+  top: -9px;
+  right: 0px;
+}
+#banner-section .navbar-align .getstarted-dropdown .dropdown-menu li {
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#banner-section .navbar-align .getstarted-dropdown .dropdown-menu li a:hover {
+  background-color: #fff;
+  color: #000 !important;
+}
+#banner-section .banner-notes {
+  position: absolute;
+  top: 230px;
+  left: 76px;
+}
+#banner-section .banner-notes h5 {
+  font-family: JosefinSansBold;
+  font-size: 68px;
+  color: #fff;
+  line-height: 80px;
+  margin-bottom: 20px;
+  position: relative;
+  left: -5px;
+}
+#banner-section .banner-notes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+#banner-section .banner-showcase {
+  position: absolute;
+  right: 40px;
+  bottom: 0px;
+}
+#banner-section .banner-showcase img {
+  width:100%;
+}
+#nav-below {
+  position: absolute;
+  top: 90px;
+  right: 357px;
+}
+#nav-below ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+#nav-below ul li a, #nav-below ul li a:hover {
+  font-family: JosefinSansRegular;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-align {
+  background-color: #fff !important;
+  margin-top: 0px !important;
+  height: 80px;
+  border-bottom: 1px solid #f7f7f7 !important;
+}
+
+.active-border {
+  border: 2px solid #05be97 !important;
+}
+
+.active-color {
+  color: #05be97 !important;
+}
+
+/*animation*/
+.slideup {
+  animation-name: slideup;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+.slidedown {
+  animation-name: slidedown;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+@keyframes slideup {
+  0% {
+    transform: translate(0px, 50px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+@keyframes slidedown {
+  0% {
+    transform: translate(0px, -100px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.btn:active:focus, .btn:focus {
+  outline: 0;
+  outline-offset: 0;
+  box-shadow: none;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  #visirx-value-section .works-heading h5 {
+    font-size: 50px;
+  }
+  #visirx-value-section .value-patient .value-desc ul li span {
+    width: 90%;
+    font-size: 14px;
+  }
+  #visirx-value-section .value-doctor .value-desc ul li span {
+    width: 90%;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1260px) {
+  #benefits-visirx .benefits-polygon {
+    top: -140px;
+    left: 20%;
+  }
+  #benefits-visirx .benefits-polygon .layer1 svg {
+    left: 50px;
+    bottom: -42px;
+  }
+
+  #benefits-visirx .benefits-polygon .layer3 svg {
+    left: 53px;
+    top: -40px;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1024px) {
+  #nav-below {
+    display: none;
+  }
+
+  #banner-section .navbar-align .navbar-right li {
+    margin-left: 10px;
+  }
+  #banner-section .banner-showcase img {
+    position: absolute;
+    right: 20px;
+    bottom: 85px;
+    width: 52%;
+  }
+
+  #visirx-value-section .works-heading h5 {
+    font-size: 40px;
+  }
+  #visirx-value-section .works-heading label {
+    top: 94px;
+  }
+  #visirx-value-section .value-doctr-img {
+    display: none;
+  }
+  #visirx-value-section .value-doctor {
+    background-color: #f6f6f6;
+  }
+  #visirx-value-section .value-patient .value-desc ul {
+    margin-bottom: 0px;
+  }
+  #visirx-value-section .value-patient .value-desc ul li span {
+    width: 100%;
+    font-size: 14px;
+  }
+  #visirx-value-section .value-patient .value-desc ul li label {
+    top: 26px;
+    left: -18px;
+  }
+  #visirx-value-section .value-doctor {
+    margin-bottom: 0px;
+  }
+  #visirx-value-section .value-doctor .value-desc {
+    padding-left: 60px;
+  }
+  #visirx-value-section .value-doctor .value-desc ul {
+    margin-bottom: 0px;
+  }
+  #visirx-value-section .value-doctor .value-desc ul li span {
+    width: 100%;
+    font-size: 14px;
+  }
+  #visirx-value-section .value-doctor .value-desc ul li label {
+    top: 26px;
+    left: -18px;
+  }
+  #visirx-value-section .value-doctor .works-heading h5 {
+    padding-left: 20px;
+    margin-top: 0px;
+    padding-top: 80px;
+  }
+  #visirx-value-section .value-doctor .works-heading label {
+    left: 60px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #visirx-value-section .value-desc ul li span {
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 420px) and (max-width: 640px) {
+  #benefits-visirx .works-heading h5 {
+    font-size: 40px;
+  }
+  #benefits-visirx .works-heading label {
+    top: 94px;
+  }
+
+  #visirx-value-section .value-desc ul li span {
+    font-size: 14px;
+  }
+  #visirx-value-section .value-doctor .works-heading label {
+    top: 91px !important;
+  }
+  #visirx-value-section .works-heading h5 {
+    font-size: 40px;
+  }
+  #visirx-value-section .works-heading label {
+    top: 84px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .navbar-collapse.collapse {
+    display: none !important;
+    height: 0 !important;
+    padding-bottom: 0;
+    overflow: hidden !important;
+  }
+
+
+  .navbar-toggle.collapsed {
+    display: block !important;
+  }
+
+  .navbar-toggle {
+    display: block !important;
+  }
+
+  .navbar-collapse.collapse.in {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .navbar-nav > li, .navbar-header {
+    float: none;
+  }
+
+  .nav-collapse-align ul {
+    width: 100%;
+  }
+
+  #nav-below, .banner-showcase, .benefits-polygon, .value-doctr-img {
+    display: none;
+  }
+
+  #banner-section .navbar-align {
+    padding: 0px;
+  }
+
+  .navbar-header {
+    padding: 11px 45px;
+  }
+
+  .navbar-toggle {
+    margin-right: 0px;
+  }
+
+  .navbar-align.navbar-default .navbar-toggle {
+    border-color: transparent;
+    border: none;
+  }
+
+  .navbar-align .navbar-toggle .icon-bar {
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 0px;
+    background-color: #fff;
+  }
+
+  .navbar-align.navbar-default .navbar-toggle:focus, .navbar-align.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    border: none;
+  }
+
+  .navbar-align.navbar-default .navbar-collapse, .navbar-align.navbar-default .navbar-form {
+    border: none;
+  }
+
+  #banner-section .navbar-align .navbar-brand {
+    padding: 10px 0px;
+  }
+
+  .navbar-brand > img {
+    width: 85px;
+  }
+
+  .nav-unlist{
+    display: block !important;
+  }
+  #banner-section .navbar-align .navbar-right {
+    float: none !important;
+    background-color: #fff;
+    margin-top: 0px;
+  }
+
+  #banner-section .navbar-align .navbar-right li a {
+    color: #636161;
+    margin-top: 10px;
+  }
+
+  #banner-section .navbar-align .navright-btn {
+    position: relative;
+    top: -8px;
+  }
+
+  .mpad0, .mmpad0 {
+    padding: 0px;
+  }
+
+  #how-it-works {
+    padding: 0px 45px;
+  }
+  #how-it-works video {
+    width: 100%;
+  }
+
+  #how-it-works .top-7{
+    top: 0px;
+  }
+  #how-it-works .video-elboration {
+    margin-top: 40px;
+  }
+
+  #benefits-visirx {
+    padding: 0px 35px;
+  }
+  #benefits-visirx .dsktp-benefit {
+    display: none;
+  }
+  #benefits-visirx .arrow-section, #benefits-visirx .mob-benefit {
+    display: block;
+  }
+  #benefits-visirx .dropdown-toggle:active:focus, #benefits-visirx .dropdown-toggle:focus {
+    outline: none;
+    outline-offset: 0px;
+    box-shadow: none;
+  }
+  #benefits-visirx .mob-benefit .benifts-desc img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  #banner-section .banner-notes {
+    left: 45px;
+  }
+
+  /*value section*/
+  #visirx-value-section .value-patient h5 {
+    padding-left: 5px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    left: 20px;
+  }
+  #visirx-value-section .value-patient label {
+    width: 60px;
+    top: 93px;
+    left: 30px;
+  }
+  #visirx-value-section .value-patient .value-desc {
+    padding: 0px 20px;
+  }
+  #visirx-value-section .value-doctor {
+    background-color: #fbfbfb;
+    margin-bottom: 0px;
+  }
+  #visirx-value-section .value-doctor .works-heading h5 {
+    padding-left: 20px;
+    left: 20px;
+  }
+  #visirx-value-section .value-doctor .works-heading label {
+    width: 40px;
+    top: 100px;
+    left: 30px;
+  }
+  #visirx-value-section .value-doctor .value-desc {
+    padding-left: 30px;
+  }
+
+  /*footer*/
+  .footer {
+    background-color: #201913;
+    padding: 30px 40px;
+    clear: both;
+  }
+  .footer .logo-footer {
+    margin-bottom: 50px;
+  }
+
+  #banner-section .navbar-align .getstarted-dropdown button {
+    background-color: transparent;
+    color: #636175;
+    border: 1px solid #fff;
+    font-family: JosefinSansRegular;
+    font-size: 14px;
+    position: relative;
+    top: 6px;
+    left: 12px;
+  }
+
+  #banner-section .navbar-align .getstarted-dropdown .dropdown-menu {
+    background-color: #fff;
+    border: none;
+    margin-top: 0px;
+    padding-top: 0px;
+    box-shadow: none;
+    left: -23px;
+    padding-left: 40px;
+  }
+
+  .loginbtn {
+    width: 110px;
+    position: relative;
+    left: 22px;
+    top: 10px;
+  }
+
+  .loginbtn a {
+    color: #fff !important;
+  }
+
+  #banner-section .navbar-align .navbar-right {
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /*benefits*/
+  #benefits-visirx {
+    padding: 0px 5px;
+  }
+
+  #benefits-visirx .arrow-section {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 999;
+  }
+
+  #banner-section .banner-notes {
+    position: absolute;
+    top: 180px;
+    left: 35px;
+  }
+
+  /*how it works*/
+  #how-it-works {
+    padding: 0px 20px;
+  }
+  #how-it-works .video-section {
+    margin-bottom: 40px;
+  }
+  #how-it-works .video-section video {
+    width: 100%;
+  }
+  #how-it-works .work-process p {
+    line-height: 20px;
+    font-size: 12px;
+  }
+
+  /*value section*/
+  #visirx-value-section .value-patient h5 {
+    padding-left: 10px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+  }
+  #visirx-value-section .value-patient label {
+    width: 60px;
+    top: 93px;
+    left: 30px;
+  }
+  #visirx-value-section .value-patient .value-desc {
+    padding: 0px 20px;
+  }
+  #visirx-value-section .value-doctor {
+    background-color: #fbfbfb;
+    margin-bottom: 0px;
+  }
+  #visirx-value-section .value-doctor .works-heading h5 {
+    padding-left: 20px;
+  }
+  #visirx-value-section .value-doctor .works-heading label {
+    width: 40px;
+    top: 91px;
+    left: 30px;
+  }
+  #visirx-value-section .value-doctor .value-desc {
+    padding-left: 30px;
+  }
+
+  /*footer*/
+  .footer {
+    background-color: #201913;
+    padding: 30px 40px;
+    clear: both;
+  }
+  .footer .logo-footer {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  /*header*/
+  .navbar-header {
+    padding: 0px 30px;
+  }
+
+  .navbar-align.navbar-default .navbar-toggle {
+    margin-right: 0px;
+  }
+
+  .navbar-collapse {
+    margin-top: 10px;
+  }
+
+  /*banner*/
+  #banner-section .banner-notes h5 {
+    font-size: 48px;
+    line-height: 70px;
+  }
+
+  #banner-section .banner-notes {
+    top: 110px;
+    left: 17px;
+  }
+
+  #banner-section {
+    background: url(../images/banner/banner.png);
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    position: relative;
+  }
+
+  .header-align {
+    height: 57px;
+  }
+
+  /*howit works*/
+  #how-it-works {
+    padding: 0px 15px;
+  }
+
+  #how-it-works .works-heading h5 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  #how-it-works .works-heading label {
+    height: 4px;
+    width: 30px;
+    top: 12px;
+  }
+
+  #how-it-works video {
+    width: 100%;
+  }
+
+  .work-process{
+    text-align: center;
+  }
+  .work-process p {
+    line-height: 20px;
+    font-size: 12px;
+  }
+
+  /*benefits*/
+  #benefits-visirx h5 {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+
+  #benefits-visirx {
+    padding: 0px 5px;
+    max-height: 400px;
+  }
+
+  #benefits-visirx label {
+    width: 40px;
+    top: 70px;
+  }
+
+  /*value for patient*/
+  #visirx-value-section h5 {
+    padding: 0px 0px;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+  #visirx-value-section h5 label {
+    width: 40px;
+    top: 59px;
+    left: 10px;
+  }
+
+  .video-section {
+    margin-bottom: 20px;
+  }
+
+  #visirx-value-section .value-patient-img img {
+    width: 100%;
+  }
+  #visirx-value-section .value-doctor {
+    background-color: #fbfbfb;
+    margin-bottom: 0px;
+  }
+  #visirx-value-section .value-doctor .works-heading h5 {
+    padding-left: 10px;
+  }
+  #visirx-value-section .value-doctor .works-heading label {
+    width: 40px;
+    top: 70px;
+    left: 20px;
+  }
+  #visirx-value-section .value-doctor .value-desc {
+    padding-left: 35px;
+  }
+  #visirx-value-section .value-patient .works-heading h5 {
+    padding-left: 0px;
+    left: 10px;
+  }
+  #visirx-value-section .value-patient .works-heading label {
+    width: 40px;
+    top: 80px;
+    left: 20px;
+  }
+  #visirx-value-section .value-doctr-img {
+    display: none;
+  }
+  #visirx-value-section .value-desc {
+    padding: 10px 10px;
+  }
+  #visirx-value-section .value-desc ul li {
+    padding-bottom: 0px;
+  }
+  #visirx-value-section .value-desc ul li label {
+    top: 25px;
+    left: -14px;
+  }
+  #visirx-value-section .value-desc ul li span {
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+  }
+
+  .footer {
+    padding: 25px 20px;
+    clear: both;
+  }
+  .footer .logo-footer img {
+    width: 90px;
+  }
+  .footer .footer-link {
+    margin-top: 20px;
+  }
+
+  .footer-copyright {
+    background-color: #151617;
+    clear: both;
+    padding: 20px 10px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .pricing-modal .modal-content .modal-header {
+    padding: 20px 15px;
+    border-bottom: none;
+  }
+  .pricing-modal .modal-body {
+    padding: 20px 15px;
+  }
+  .pricing-modal .modal-body ul li label {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 540px) and (min-width: 460px) {
+  .pricing-modal .price-footer .month-block {
+    padding-left: 5%;
+  }
+  .pricing-modal .price-footer .year-block {
+    padding-right: 5%;
+  }
+  .pricing-modal .price-footer .month-block sup, .pricing-modal .price-footer .year-block sup {
+    top: -0.7em;
+  }
+}
+@media only screen and (max-width: 460px) and (min-width: 400px){
+  .pricing-modal .price-footer .month-block {
+    padding-left: 5%;
+  }
+  .pricing-modal .price-footer .year-block {
+    padding-right: 5%;
+  }
+  .pricing-modal .price-footer .month-block .price, 
+  .pricing-modal .price-footer .year-block .price {
+    font-size: 20px;
+  }
+  .pricing-modal .price-footer .center-divider {
+    height: 30px;
+  }
+  .pricing-modal .price-footer .month-block .period, 
+  .pricing-modal .price-footer .year-block .period {
+    font-size: 14px;
+  }
+  .pricing-modal .price-footer .month-block sup, .pricing-modal .price-footer .year-block sup {
+    top: -0.7em;
+  }
+
+}
+@media only screen and (max-width: 400px) and (min-width: 320px){
+  .pricing-modal .price-footer .month-block {
+    padding-left: 5%;
+  }
+  .pricing-modal .price-footer .year-block {
+    padding-right: 5%;
+  }
+  .pricing-modal .price-footer .month-block .price, 
+  .pricing-modal .price-footer .year-block .price {
+    font-size: 15px;
+  }
+  .pricing-modal .price-footer .center-divider {
+    height: 25px;
+  }
+  .pricing-modal .price-footer .month-block .period, 
+  .pricing-modal .price-footer .year-block .period {
+    font-size: 14px;
+  }
+  .pricing-modal .price-footer .month-block sup, .pricing-modal .price-footer .year-block sup {
+    top: -0.5em;
+  }
+}
+
+@media only screen and (min-width: 1400px){
+  #how-it-works .top-7{
+    top: 7em;
+  }
+}
+@font-face {
+  font-family: "JosefinSansBold";
+  src: url("../fonts/JosefinSansBold/JosefinSansBold.eot?") format("eot"), url("../fonts/JosefinSansBold/JosefinSansBold.woff2") format("woff2"), url("../fonts/JosefinSansBold/JosefinSansBold.woff") format("woff"), url("../fonts/JosefinSansBold/JosefinSansBold.ttf") format("truetype"), url("../fonts/JosefinSansBold/JosefinSansBold.svg#JosefinSansBold") format("svg");
+}
+@font-face {
+  font-family: "JosefinSansRegular";
+  src: url("../fonts/JosefinSansRegular/JosefinSansRegular.eot?") format("eot"), url("../fonts/JosefinSansRegular/JosefinSansRegular.woff2") format("woff2"), url("../fonts/JosefinSansRegular/JosefinSansRegular.woff") format("woff"), url("../fonts/JosefinSansRegular/JosefinSansRegular.ttf") format("truetype"), url("../fonts/JosefinSansRegular/JosefinSansRegular.svg#JosefinSansRegular") format("svg");
+}
+@font-face {
+  font-family: "RubikRegular";
+  src: url("../fonts/RubikRegular/RubikRegular.eot?") format("eot"), url("../fonts/RubikRegular/RubikRegular.woff2") format("woff2"), url("../fonts/RubikRegular/RubikRegular.woff") format("woff"), url("../fonts/RubikRegular/RubikRegular.ttf") format("truetype"), url("../fonts/RubikRegular/RubikRegular.svg#RubikRegular") format("svg");
+}
+
+/*# sourceMappingURL=style.min.css.map */
